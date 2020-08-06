@@ -1,4 +1,5 @@
 require_relative "./user.rb"
+require "pry"
 
 class Student < User
 
@@ -9,11 +10,15 @@ class Student < User
   end
 
   def learn(knowledge)
+    binding.pry
     @knowledge = knowledge
+    binding.pry
   end
 
   def knowledge
+    binding.pry
     @knowledge
+    binding.pry
   end
 
 end
