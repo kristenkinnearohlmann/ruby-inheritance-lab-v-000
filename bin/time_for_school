@@ -29,5 +29,5 @@ jim.last_name = "Henson"
 jim_knowledge = avi.teach
 jim.learn(jim_knowledge)
 
-puts steve.knowledge
-puts jim.knowledge
+puts "#{steve.first_name} has learned: '#{steve.knowledge}' from #{avi.first_name}"
+puts "New student #{jim.first_name} has learned: '#{jim.knowledge}' from #{avi.first_name}"
